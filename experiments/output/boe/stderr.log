@@ -1,0 +1,141 @@
+0it [00:00, ?it/s]100it [00:00, 987.44it/s]181it [00:00, 892.13it/s]240it [00:00, 792.09it/s]314it [00:00, 778.56it/s]377it [00:00, 748.56it/s]464it [00:00, 767.39it/s]596it [00:00, 845.31it/s]683it [00:00, 793.21it/s]762it [00:00, 792.68it/s]850it [00:01, 800.52it/s]971it [00:01, 834.26it/s]1000it [00:01, 808.37it/s]
+0it [00:00, ?it/s]241it [00:00, 2404.57it/s]389it [00:00, 1940.42it/s]484it [00:00, 1553.09it/s]664it [00:00, 1612.18it/s]784it [00:00, 1522.85it/s]927it [00:00, 1445.14it/s]1000it [00:00, 1456.45it/s]
+  0%|          | 0/2000 [00:00<?, ?it/s] 21%|##1       | 423/2000 [00:00<00:00, 4213.48it/s] 39%|###9      | 784/2000 [00:00<00:00, 3889.00it/s] 62%|######2   | 1243/2000 [00:00<00:00, 4114.58it/s] 81%|########  | 1617/2000 [00:00<00:00, 4018.26it/s] 97%|#########7| 1946/2000 [00:00<00:00, 3872.91it/s]100%|##########| 2000/2000 [00:00<00:00, 3872.20it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s] 32%|###2      | 324/1000 [00:00<00:00, 3238.64it/s] 60%|######    | 604/1000 [00:00<00:00, 3011.91it/s] 80%|########  | 801/1000 [00:00<00:00, 2664.90it/s]100%|##########| 1000/1000 [00:00<00:00, 2676.53it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s] 32%|###2      | 324/1000 [00:00<00:00, 3233.96it/s] 60%|######    | 600/1000 [00:00<00:00, 2993.50it/s] 82%|########1 | 818/1000 [00:00<00:00, 2721.57it/s]100%|##########| 1000/1000 [00:00<00:00, 2699.33it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.13, loss: 21.95 ||:   0%|          | 0/8 [00:01<?, ?it/s]accuracy: 0.13, loss: 21.95 ||:  12%|#2        | 1/8 [00:01<00:09,  1.40s/it]accuracy: 0.21, loss: 16.49 ||:  12%|#2        | 1/8 [00:02<00:17,  2.54s/it]accuracy: 0.21, loss: 16.49 ||:  25%|##5       | 2/8 [00:02<00:07,  1.27s/it]accuracy: 0.18, loss: 13.87 ||:  25%|##5       | 2/8 [00:03<00:10,  1.74s/it]accuracy: 0.18, loss: 13.87 ||:  38%|###7      | 3/8 [00:03<00:05,  1.16s/it]accuracy: 0.21, loss: 12.84 ||:  38%|###7      | 3/8 [00:04<00:07,  1.59s/it]accuracy: 0.21, loss: 12.84 ||:  50%|#####     | 4/8 [00:04<00:04,  1.19s/it]accuracy: 0.23, loss: 11.92 ||:  50%|#####     | 4/8 [00:05<00:05,  1.37s/it]accuracy: 0.23, loss: 11.92 ||:  62%|######2   | 5/8 [00:05<00:03,  1.09s/it]accuracy: 0.25, loss: 11.93 ||:  62%|######2   | 5/8 [00:07<00:04,  1.44s/it]accuracy: 0.25, loss: 11.93 ||:  75%|#######5  | 6/8 [00:07<00:02,  1.20s/it]accuracy: 0.30, loss: 10.87 ||:  75%|#######5  | 6/8 [00:10<00:03,  1.73s/it]accuracy: 0.30, loss: 10.87 ||:  88%|########7 | 7/8 [00:10<00:01,  1.48s/it]accuracy: 0.33, loss: 10.60 ||:  88%|########7 | 7/8 [00:13<00:01,  1.89s/it]accuracy: 0.33, loss: 10.60 ||: 100%|##########| 8/8 [00:13<00:00,  1.65s/it]
+  0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.41, loss: 11.03 ||:   0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.41, loss: 11.03 ||:  12%|#2        | 1/8 [00:00<00:05,  1.21it/s]Traceback (most recent call last):
+  File "custom_run.py", line 14, in <module>
+    main(predictor_overrides=predictors)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/__init__.py", line 62, in main
+    args.func(args)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 63, in _train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 83, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 168, in train_model
+    trainer.train()
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/training/trainer.py", line 373, in train
+    val_loss, num_batches = self._validation_loss()
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/training/trainer.py", line 342, in _validation_loss
+    loss = self._batch_loss(batch, for_training=False)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/training/trainer.py", line 176, in _batch_loss
+    output_dict = self._forward(batch, for_training=for_training)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/training/trainer.py", line 410, in _forward
+    return self._model.forward(**tensor_batch)
+  File "/Users/oeg/dev/recognai/testing/sequence_classification_allennlp/custom/models.py", line 103, in forward
+    encoded_text = self.encoder(embedded_text_input, mask)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/torch/nn/modules/module.py", line 224, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/modules/seq2vec_encoders/boe_encoder.py", line 46, in forward
+    summed = tokens.sum(1)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/torch/autograd/variable.py", line 476, in sum
+    return Sum.apply(self, dim, keepdim)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/torch/autograd/_functions/reduce.py", line 21, in forward
+    return input.sum(dim)
+KeyboardInterrupt
+0it [00:00, ?it/s]88it [00:00, 877.28it/s]170it [00:00, 847.38it/s]235it [00:00, 779.72it/s]307it [00:00, 764.46it/s]375it [00:00, 742.17it/s]453it [00:00, 747.39it/s]565it [00:00, 799.49it/s]644it [00:00, 774.36it/s]719it [00:00, 757.06it/s]812it [00:01, 773.15it/s]930it [00:01, 808.42it/s]1000it [00:01, 786.75it/s]
+0it [00:00, ?it/s]254it [00:00, 2535.92it/s]412it [00:00, 2057.39it/s]513it [00:00, 1645.02it/s]677it [00:00, 1637.88it/s]810it [00:00, 1577.79it/s]932it [00:00, 1482.78it/s]1000it [00:00, 1496.99it/s]
+  0%|          | 0/2000 [00:00<?, ?it/s] 21%|##1       | 423/2000 [00:00<00:00, 4205.69it/s] 40%|####      | 802/2000 [00:00<00:00, 3997.15it/s] 63%|######2   | 1256/2000 [00:00<00:00, 4175.76it/s] 82%|########1 | 1638/2000 [00:00<00:00, 4060.53it/s] 99%|#########8| 1973/2000 [00:00<00:00, 3917.93it/s]100%|##########| 2000/2000 [00:00<00:00, 3918.03it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s] 32%|###2      | 321/1000 [00:00<00:00, 3182.54it/s] 58%|#####8    | 582/1000 [00:00<00:00, 2896.15it/s] 79%|#######8  | 787/1000 [00:00<00:00, 2613.22it/s]100%|##########| 1000/1000 [00:00<00:00, 2652.15it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s] 32%|###1      | 316/1000 [00:00<00:00, 3145.07it/s] 58%|#####7    | 576/1000 [00:00<00:00, 2869.60it/s] 80%|########  | 802/1000 [00:00<00:00, 2660.87it/s]100%|##########| 1000/1000 [00:00<00:00, 2662.19it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.13, loss: 21.95 ||:   0%|          | 0/8 [00:01<?, ?it/s]accuracy: 0.13, loss: 21.95 ||:  12%|#2        | 1/8 [00:01<00:09,  1.35s/it]accuracy: 0.21, loss: 16.49 ||:  12%|#2        | 1/8 [00:02<00:17,  2.54s/it]accuracy: 0.21, loss: 16.49 ||:  25%|##5       | 2/8 [00:02<00:07,  1.27s/it]accuracy: 0.18, loss: 13.87 ||:  25%|##5       | 2/8 [00:03<00:10,  1.71s/it]accuracy: 0.18, loss: 13.87 ||:  38%|###7      | 3/8 [00:03<00:05,  1.14s/it]accuracy: 0.21, loss: 12.84 ||:  38%|###7      | 3/8 [00:04<00:07,  1.56s/it]accuracy: 0.21, loss: 12.84 ||:  50%|#####     | 4/8 [00:04<00:04,  1.17s/it]accuracy: 0.23, loss: 11.92 ||:  50%|#####     | 4/8 [00:05<00:05,  1.35s/it]accuracy: 0.23, loss: 11.92 ||:  62%|######2   | 5/8 [00:05<00:03,  1.08s/it]accuracy: 0.25, loss: 11.93 ||:  62%|######2   | 5/8 [00:07<00:04,  1.45s/it]accuracy: 0.25, loss: 11.93 ||:  75%|#######5  | 6/8 [00:07<00:02,  1.21s/it]accuracy: 0.30, loss: 10.87 ||:  75%|#######5  | 6/8 [00:10<00:03,  1.78s/it]accuracy: 0.30, loss: 10.87 ||:  88%|########7 | 7/8 [00:10<00:01,  1.53s/it]accuracy: 0.33, loss: 10.60 ||:  88%|########7 | 7/8 [00:13<00:01,  1.93s/it]accuracy: 0.33, loss: 10.60 ||: 100%|##########| 8/8 [00:13<00:00,  1.69s/it]
+  0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.41, loss: 11.03 ||:   0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.41, loss: 11.03 ||:  12%|#2        | 1/8 [00:00<00:05,  1.23it/s]accuracy: 0.44, loss: 11.17 ||:  12%|#2        | 1/8 [00:01<00:09,  1.39s/it]accuracy: 0.44, loss: 11.17 ||:  25%|##5       | 2/8 [00:01<00:04,  1.44it/s]accuracy: 0.46, loss: 10.20 ||:  25%|##5       | 2/8 [00:02<00:07,  1.33s/it]accuracy: 0.46, loss: 10.20 ||:  38%|###7      | 3/8 [00:02<00:04,  1.13it/s]accuracy: 0.46, loss: 9.66 ||:  38%|###7      | 3/8 [00:02<00:04,  1.03it/s] accuracy: 0.46, loss: 9.66 ||:  50%|#####     | 4/8 [00:02<00:02,  1.37it/s]accuracy: 0.50, loss: 8.58 ||:  50%|#####     | 4/8 [00:04<00:04,  1.07s/it]accuracy: 0.50, loss: 8.58 ||:  62%|######2   | 5/8 [00:04<00:02,  1.17it/s]accuracy: 0.50, loss: 8.21 ||:  62%|######2   | 5/8 [00:04<00:02,  1.02it/s]accuracy: 0.50, loss: 8.21 ||:  75%|#######5  | 6/8 [00:04<00:01,  1.23it/s]accuracy: 0.49, loss: 8.43 ||:  75%|#######5  | 6/8 [00:05<00:01,  1.10it/s]accuracy: 0.49, loss: 8.43 ||:  88%|########7 | 7/8 [00:05<00:00,  1.29it/s]accuracy: 0.45, loss: 8.42 ||:  88%|########7 | 7/8 [00:05<00:00,  1.19it/s]accuracy: 0.45, loss: 8.42 ||: 100%|##########| 8/8 [00:05<00:00,  1.36it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.47, loss: 11.31 ||:   0%|          | 0/8 [00:01<?, ?it/s]accuracy: 0.47, loss: 11.31 ||:  12%|#2        | 1/8 [00:01<00:09,  1.35s/it]accuracy: 0.47, loss: 9.43 ||:  12%|#2        | 1/8 [00:04<00:29,  4.22s/it] accuracy: 0.47, loss: 9.43 ||:  25%|##5       | 2/8 [00:04<00:12,  2.11s/it]Traceback (most recent call last):
+  File "/anaconda/envs/allennlp/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/anaconda/envs/allennlp/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/oeg/dev/recognai/testing/sequence_classification_allennlp/custom/run.py", line 24, in <module>
+    main(predictor_overrides=predictors)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/__init__.py", line 62, in main
+    args.func(args)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 63, in _train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 83, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 168, in train_model
+    trainer.train()
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/training/trainer.py", line 369, in train
+    train_metrics = self._train_epoch(epoch)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/training/trainer.py", line 217, in _train_epoch
+    for batch in train_generator_tqdm:
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/tqdm/_tqdm.py", line 953, in __iter__
+    for obj in iterable:
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/data/iterators/data_iterator.py", line 44, in __call__
+    yield from self._yield_one_epoch(dataset, shuffle)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/data/iterators/data_iterator.py", line 61, in _yield_one_epoch
+    yield batch.as_array_dict(padding_lengths, verbose=False)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/data/dataset.py", line 151, in as_array_dict
+    for field, arrays in instance.as_array_dict(lengths_to_use).items():
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/data/instance.py", line 66, in as_array_dict
+    arrays[field_name] = field.as_array(padding_lengths[field_name])
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/data/fields/text_field.py", line 95, in as_array
+    desired_num_tokens, padding_lengths)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/data/token_indexers/single_id_token_indexer.py", line 66, in pad_token_sequence
+    return pad_sequence_to_length(tokens, desired_num_tokens)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/common/util.py", line 92, in pad_sequence_to_length
+    padded_sequence.append(default_value())
+KeyboardInterrupt
+0it [00:00, ?it/s]81it [00:00, 808.06it/s]170it [00:00, 847.81it/s]229it [00:00, 761.71it/s]304it [00:00, 752.40it/s]374it [00:00, 740.67it/s]450it [00:00, 743.17it/s]573it [00:00, 811.88it/s]655it [00:00, 787.92it/s]732it [00:00, 776.91it/s]819it [00:01, 783.72it/s]938it [00:01, 817.82it/s]1000it [00:01, 787.12it/s]
+0it [00:00, ?it/s]248it [00:00, 2468.30it/s]409it [00:00, 2023.65it/s]509it [00:00, 1627.65it/s]681it [00:00, 1647.22it/s]816it [00:00, 1588.89it/s]940it [00:00, 1478.53it/s]1000it [00:00, 1479.05it/s]
+  0%|          | 0/2000 [00:00<?, ?it/s] 21%|##1       | 426/2000 [00:00<00:00, 4253.49it/s] 39%|###9      | 787/2000 [00:00<00:00, 3926.38it/s] 62%|######2   | 1244/2000 [00:00<00:00, 4129.19it/s] 82%|########1 | 1638/2000 [00:00<00:00, 4060.55it/s] 99%|#########9| 1986/2000 [00:00<00:00, 3944.91it/s]100%|##########| 2000/2000 [00:00<00:00, 3942.31it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s] 33%|###2      | 328/1000 [00:00<00:00, 3250.45it/s] 62%|######1   | 619/1000 [00:00<00:00, 3072.19it/s] 83%|########3 | 834/1000 [00:00<00:00, 2755.37it/s]100%|##########| 1000/1000 [00:00<00:00, 2780.43it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s] 33%|###2      | 328/1000 [00:00<00:00, 3207.54it/s] 60%|######    | 602/1000 [00:00<00:00, 2974.91it/s] 82%|########2 | 823/1000 [00:00<00:00, 2719.60it/s]100%|##########| 1000/1000 [00:00<00:00, 2730.05it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.48, loss: 6.36 ||:   0%|          | 0/8 [00:01<?, ?it/s]accuracy: 0.48, loss: 6.36 ||:  12%|#2        | 1/8 [00:01<00:09,  1.31s/it]accuracy: 0.47, loss: 7.90 ||:  12%|#2        | 1/8 [00:02<00:17,  2.54s/it]accuracy: 0.47, loss: 7.90 ||:  25%|##5       | 2/8 [00:02<00:07,  1.27s/it]Traceback (most recent call last):
+  File "/anaconda/envs/allennlp/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/anaconda/envs/allennlp/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/oeg/dev/recognai/testing/sequence_classification_allennlp/custom/run.py", line 21, in <module>
+    main(predictor_overrides=predictors)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/__init__.py", line 62, in main
+    args.func(args)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 63, in _train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 83, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 168, in train_model
+    trainer.train()
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/training/trainer.py", line 369, in train
+    train_metrics = self._train_epoch(epoch)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/training/trainer.py", line 230, in _train_epoch
+    self._optimizer.step()
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/torch/optim/adam.py", line 66, in step
+    exp_avg_sq.mul_(beta2).addcmul_(1 - beta2, grad, grad)
+KeyboardInterrupt
+0it [00:00, ?it/s]107it [00:00, 1063.84it/s]179it [00:00, 882.34it/s] 244it [00:00, 796.74it/s]324it [00:00, 788.70it/s]400it [00:00, 783.08it/s]499it [00:00, 815.93it/s]618it [00:00, 868.19it/s]706it [00:00, 811.83it/s]784it [00:00, 805.40it/s]899it [00:01, 837.31it/s]988it [00:01, 819.15it/s]1000it [00:01, 820.63it/s]
+0it [00:00, ?it/s]243it [00:00, 2408.73it/s]409it [00:00, 2026.22it/s]509it [00:00, 1669.17it/s]679it [00:00, 1674.57it/s]826it [00:00, 1632.77it/s]954it [00:00, 1527.96it/s]1000it [00:00, 1536.95it/s]
+  0%|          | 0/2000 [00:00<?, ?it/s] 20%|##        | 407/2000 [00:00<00:00, 4049.52it/s] 37%|###7      | 742/2000 [00:00<00:00, 3700.18it/s] 58%|#####8    | 1166/2000 [00:00<00:00, 3877.24it/s] 77%|#######6  | 1534/2000 [00:00<00:00, 3825.12it/s] 93%|#########2| 1858/2000 [00:00<00:00, 3707.69it/s]100%|##########| 2000/2000 [00:00<00:00, 3736.52it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s] 32%|###2      | 321/1000 [00:00<00:00, 3181.59it/s] 57%|#####7    | 573/1000 [00:00<00:00, 2841.29it/s] 77%|#######7  | 771/1000 [00:00<00:00, 2553.80it/s]100%|##########| 1000/1000 [00:00<00:00, 2531.11it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s] 32%|###1      | 317/1000 [00:00<00:00, 3164.75it/s] 57%|#####6    | 570/1000 [00:00<00:00, 2847.55it/s] 79%|#######8  | 787/1000 [00:00<00:00, 2614.47it/s]100%|##########| 1000/1000 [00:00<00:00, 2635.17it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.48, loss: 6.36 ||:   0%|          | 0/8 [00:01<?, ?it/s]accuracy: 0.48, loss: 6.36 ||:  12%|#2        | 1/8 [00:01<00:08,  1.28s/it]accuracy: 0.47, loss: 7.90 ||:  12%|#2        | 1/8 [00:02<00:17,  2.46s/it]accuracy: 0.47, loss: 7.90 ||:  25%|##5       | 2/8 [00:02<00:07,  1.23s/it]accuracy: 0.37, loss: 7.88 ||:  25%|##5       | 2/8 [00:03<00:10,  1.68s/it]accuracy: 0.37, loss: 7.88 ||:  38%|###7      | 3/8 [00:03<00:05,  1.12s/it]accuracy: 0.40, loss: 8.05 ||:  38%|###7      | 3/8 [00:04<00:07,  1.54s/it]accuracy: 0.40, loss: 8.05 ||:  50%|#####     | 4/8 [00:04<00:04,  1.16s/it]accuracy: 0.40, loss: 7.58 ||:  50%|#####     | 4/8 [00:05<00:05,  1.33s/it]accuracy: 0.40, loss: 7.58 ||:  62%|######2   | 5/8 [00:05<00:03,  1.06s/it]accuracy: 0.39, loss: 7.58 ||:  62%|######2   | 5/8 [00:07<00:04,  1.43s/it]accuracy: 0.39, loss: 7.58 ||:  75%|#######5  | 6/8 [00:07<00:02,  1.19s/it]accuracy: 0.39, loss: 7.68 ||:  75%|#######5  | 6/8 [00:10<00:03,  1.74s/it]accuracy: 0.39, loss: 7.68 ||:  88%|########7 | 7/8 [00:10<00:01,  1.49s/it]accuracy: 0.38, loss: 7.55 ||:  88%|########7 | 7/8 [00:13<00:01,  1.91s/it]accuracy: 0.38, loss: 7.55 ||: 100%|##########| 8/8 [00:13<00:00,  1.67s/it]
+  0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.36, loss: 6.94 ||:   0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.36, loss: 6.94 ||:  12%|#2        | 1/8 [00:00<00:06,  1.14it/s]accuracy: 0.35, loss: 6.53 ||:  12%|#2        | 1/8 [00:01<00:09,  1.41s/it]accuracy: 0.35, loss: 6.53 ||:  25%|##5       | 2/8 [00:01<00:04,  1.42it/s]accuracy: 0.36, loss: 6.40 ||:  25%|##5       | 2/8 [00:02<00:07,  1.32s/it]accuracy: 0.36, loss: 6.40 ||:  38%|###7      | 3/8 [00:02<00:04,  1.13it/s]accuracy: 0.36, loss: 6.08 ||:  38%|###7      | 3/8 [00:02<00:04,  1.04it/s]accuracy: 0.36, loss: 6.08 ||:  50%|#####     | 4/8 [00:02<00:02,  1.38it/s]accuracy: 0.37, loss: 6.10 ||:  50%|#####     | 4/8 [00:04<00:04,  1.03s/it]accuracy: 0.37, loss: 6.10 ||:  62%|######2   | 5/8 [00:04<00:02,  1.21it/s]accuracy: 0.37, loss: 6.07 ||:  62%|######2   | 5/8 [00:04<00:02,  1.06it/s]accuracy: 0.37, loss: 6.07 ||:  75%|#######5  | 6/8 [00:04<00:01,  1.27it/s]accuracy: 0.38, loss: 5.99 ||:  75%|#######5  | 6/8 [00:05<00:01,  1.15it/s]accuracy: 0.38, loss: 5.99 ||:  88%|########7 | 7/8 [00:05<00:00,  1.34it/s]accuracy: 0.35, loss: 5.88 ||:  88%|########7 | 7/8 [00:05<00:00,  1.25it/s]accuracy: 0.35, loss: 5.88 ||: 100%|##########| 8/8 [00:05<00:00,  1.43it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]accuracy: 0.34, loss: 6.12 ||:   0%|          | 0/8 [00:01<?, ?it/s]accuracy: 0.34, loss: 6.12 ||:  12%|#2        | 1/8 [00:01<00:08,  1.25s/it]accuracy: 0.36, loss: 5.89 ||:  12%|#2        | 1/8 [00:04<00:29,  4.25s/it]accuracy: 0.36, loss: 5.89 ||:  25%|##5       | 2/8 [00:04<00:12,  2.12s/it]accuracy: 0.43, loss: 5.17 ||:  25%|##5       | 2/8 [00:07<00:21,  3.63s/it]accuracy: 0.43, loss: 5.17 ||:  38%|###7      | 3/8 [00:07<00:12,  2.42s/it]accuracy: 0.44, loss: 5.00 ||:  38%|###7      | 3/8 [00:08<00:14,  2.87s/it]accuracy: 0.44, loss: 5.00 ||:  50%|#####     | 4/8 [00:08<00:08,  2.15s/it]Traceback (most recent call last):
+  File "/anaconda/envs/allennlp/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/anaconda/envs/allennlp/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/oeg/dev/recognai/testing/sequence_classification_allennlp/custom/run.py", line 20, in <module>
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/__init__.py", line 62, in main
+    args.func(args)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 63, in _train_model_from_args
+    train_model_from_file(args.param_path, args.serialization_dir)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 83, in train_model_from_file
+    return train_model(params, serialization_dir)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/commands/train.py", line 168, in train_model
+    trainer.train()
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/training/trainer.py", line 369, in train
+    train_metrics = self._train_epoch(epoch)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/allennlp-0.2.1-py3.6.egg/allennlp/training/trainer.py", line 222, in _train_epoch
+    loss.backward()
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/torch/autograd/variable.py", line 156, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, retain_variables)
+  File "/anaconda/envs/allennlp/lib/python3.6/site-packages/torch/autograd/__init__.py", line 98, in backward
+    variables, grad_variables, retain_graph)
+KeyboardInterrupt
+0it [00:00, ?it/s]93it [00:00, 929.36it/s]170it [00:00, 839.08it/s]230it [00:00, 759.76it/s]305it [00:00, 752.40it/s]374it [00:00, 739.96it/s]451it [00:00, 744.82it/s]573it [00:00, 810.63it/s]655it [00:00, 786.30it/s]732it [00:00, 772.67it/s]823it [00:01, 785.55it/s]944it [00:01, 821.42it/s]1000it [00:01, 793.28it/s]
+0it [00:00, ?it/s]246it [00:00, 2456.49it/s]409it [00:00, 2031.19it/s]509it [00:00, 1678.45it/s]680it [00:00, 1682.97it/s]819it [00:00, 1623.77it/s]945it [00:00, 1518.96it/s]1000it [00:00, 1513.33it/s]
+  0%|          | 0/2000 [00:00<?, ?it/s] 21%|##        | 418/2000 [00:00<00:00, 4158.87it/s] 39%|###9      | 784/2000 [00:00<00:00, 3899.74it/s] 62%|######2   | 1249/2000 [00:00<00:00, 4144.87it/s] 81%|########  | 1619/2000 [00:00<00:00, 4033.16it/s] 97%|#########7| 1948/2000 [00:00<00:00, 3882.68it/s]100%|##########| 2000/2000 [00:00<00:00, 3851.68it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s] 33%|###3      | 330/1000 [00:00<00:00, 3289.12it/s] 62%|######1   | 617/1000 [00:00<00:00, 3058.36it/s] 82%|########2 | 825/1000 [00:00<00:00, 2733.15it/s]100%|##########| 1000/1000 [00:00<00:00, 2721.59it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s] 32%|###2      | 324/1000 [00:00<00:00, 3193.69it/s] 58%|#####8    | 580/1000 [00:00<00:00, 2875.33it/s] 82%|########1 | 819/1000 [00:00<00:00, 2705.19it/s]100%|##########| 1000/1000 [00:00<00:00, 2733.76it/s]
