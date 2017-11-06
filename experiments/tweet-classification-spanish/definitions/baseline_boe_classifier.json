@@ -1,8 +1,14 @@
 {
   "dataset_reader": {
-    "type": "jsonl_classification_reader",
-    "input": "reviewText",
-    "gold_label": "overall",
+    "type": "csv_classification_reader",
+    "delimiter": ",",
+    "pos_input": 1,
+    "pos_gold_label": 2,
+    "tokenizer": {
+      "word_splitter": {
+        "language": "es"
+      }
+    },
     "token_indexers": {
       "tokens": {
         "type": "single_id",
@@ -10,8 +16,8 @@
       }
     }
   },
-  "train_data_path": "data/amazon_reviews_video_games_5-1000.json.train",
-  "validation_data_path": "data/amazon_reviews_video_games_5-1000.json.dev",
+  "train_data_path": "experiments/tweet-classification-spanish/data/coset-train.csv",
+  "validation_data_path": "experiments/tweet-classification-spanish/data/coset-dev.csv",
   "model": {
     "type": "sequence_classifier",
     "text_field_embedder": {
@@ -26,12 +32,12 @@
             "averaged": false
     }
   },
-  "iterator": {"type": "bucket", "batch_size": 128},
+  "iterator": {"type": "bucket", "batch_size": 16},
   "trainer": {
     "optimizer": {
       "type": "adam"
     },
-    "num_epochs": 1,
+    "num_epochs": 10,
     "patience": 10,
     "cuda_device": -1
   }

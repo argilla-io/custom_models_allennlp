@@ -1,0 +1,50 @@
+{
+  "dataset_reader": {
+    "type": "jsonl_classification_reader",
+    "input": "reviewText",
+    "field_preparator": {
+      "field": "overall",
+      "mapping": {
+        "1": "NEGATIVE",
+        "2": "NEGATIVE",
+        "3": "NEUTRAL",
+        "4": "POSITIVE",
+        "5": "POSITIVE"
+      }
+    },
+    "gold_label": "overall",
+    "token_indexers": {
+      "tokens": {
+        "type": "single_id",
+        "lowercase_tokens": true
+      }
+    }
+  },
+  "vocabulary": {
+    "min_count": 50
+  },
+  "train_data_path": "data/large/amazon_reviews_video_games.json.train",
+  "validation_data_path": "data/large/amazon_reviews_video_games.json.dev",
+  "model": {
+    "type": "sequence_classifier",
+    "text_field_embedder": {
+            "tokens": {
+              "type": "embedding",
+              "embedding_dim": 300
+          }
+    },
+    "encoder": {
+            "type": "boe",
+            "embedding_dim": 300
+    }
+  },
+  "iterator": {"type": "bucket", "batch_size": 128},
+  "trainer": {
+    "optimizer": {
+      "type": "adam"
+    },
+    "num_epochs": 4,
+    "patience": 10,
+    "cuda_device": -1
+  }
+}
